@@ -3,7 +3,7 @@
 
 const inquirer = require ('inquirer');
 const generateMarkdown = require('./utils/md-generator');
-const fileSetup = require ('fileSetup/promises'); // to create file inside the output folder
+const fileSetup = require ('fs/promises'); // to create file inside the output folder
 const path = require ('path'); // directory path file value
 
 
@@ -66,8 +66,7 @@ inquirer.prompt([
     const outputDir = path.join (__dirname, 'output', 'demo.md'); // --> First Argument for the fileSetup.writeFile ()
 
     // method function to create the output generated file
-    const writeFile = fileSetup.writeFile;
-    writeFile (outputDir, generated, 'utf-8')
+    fileSetup.writeFile (outputDir, generated, 'utf-8')
         .then(() => {
             console.log('generated')
         });

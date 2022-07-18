@@ -54,12 +54,12 @@ Here are the list of reference for this project, [Reference 1](${reference}),
 
 ## Github Link
 ---------------------
-You might be a shooting star &#9733; Don't forget to click the ![star-button](utils/star-btn.png) button on any of my repositories [github/${github}](https://github.com/${github})
+You might be a shooting star &#9733; Don't forget to click the [stars](utils/star-btn.png) button on any of my repositories [github/${github}](https://github.com/${github})
 
 ## Feedback or Contribute
 ---------------------
 ***If you have any feedback or suggestion feel free to send an email,*** ${email}
-***Or else, if you would like to make a contribution, feel free to*** ![buy-me-a-coffee](utils/buy-me-a-coffee_opt.png) 
+***Or else, if you would like to make a contribution, feel free to*** [buy-me-a-coffee](utils/buy-me-a-coffee_opt.png) 
 
 ## License
 ---------------------

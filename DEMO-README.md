@@ -1,5 +1,5 @@
 # Markdown README generator
-{license}
+![mit-license](https://img.shields.io/badge/license-MIT-yellowgreen)
 
 ## Description
 ---------------------
@@ -30,7 +30,7 @@ Under ***utils/...*** , for the sreenshots and demo video.
 
 ## Reference
 ---------------------
-Here are the list of reference for this assignment, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/) and [Screencastify](https://www.screencastify.com/), to record the demo video.
+Here are the list of reference for this assignment, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/), [Screencastify](https://www.screencastify.com/), to record the demo video and instructors ***Sam*** guided syntax code.
 
 ## Github Link
 ---------------------
@@ -38,9 +38,9 @@ You might be a shooting star &#9733; Don't forget to click the ![star-button](ut
 
 ## Feedback or Contribute
 ---------------------
-***If you have any feedback or suggestion feel free to send an email,*** {email-add}
+***If you have any feedback or suggestion feel free to send an email,*** maytiara@gmail.com
 ***Or else, if you would like to make a contribution, feel free to*** ![buy-me-a-coffee](utils/buy-me-a-coffee_opt.png) 
 
 ## License
 ---------------------
-All rights reserved. Under the {license} license.
+All rights reserved. Under the MIT license.

@@ -1,3 +1,11 @@
+//create function to replace the symbol space in appropriate encode component
+function licensedBadge (license) {
+
+    const licenseSymbols = encodeURIComponent (license.replace ('-', ' '))
+
+    return `
+![${license}-license](https://img.shields.io/badge/license-${licenseSymbols}-yellowgreen)`;
+}
 
 //list of data required for the generator
 function generateMarkdown ({ 
@@ -12,8 +20,10 @@ function generateMarkdown ({
 
     // print the data/s on this string (template literal) **Dont use tab indentation inside the string
    return `
-# Markdown README generator
-![mit-license](https://img.shields.io/badge/license-MIT-yellowgreen)
+
+# ${title}
+
+${licensedBadge(license)}
 
 ## Description
 ---------------------
@@ -44,11 +54,11 @@ Under ***utils/...*** , for the sreenshots and demo video.
 
 ## Reference
 ---------------------
-Here are the list of reference for this assignment, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/) and [Screencastify](https://www.screencastify.com/), to record the demo video.
+Here are the list of reference for this project, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/) and [Screencastify](https://www.screencastify.com/), to record the demo video.
 
 ## Github Link
 ---------------------
-You might be a shooting star &#9733; Don't forget to click the ![star-button](utils/star-btn.png) button on any of my repositories [github/maytiara](https://github.com/maytiara)
+You might be a shooting star &#9733; Don't forget to click the ![star-button](utils/star-btn.png) button on any of my repositories [github/${github}](https://github.com/${github})
 
 ## Feedback or Contribute
 ---------------------

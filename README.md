@@ -24,10 +24,10 @@ This generator will saves time to create a read-me markdown file, it includes de
 
 ## Usage
 ***To view the demo video*** , please click the link
-[demo-video](https://drive.google.com/file/d/18iKZPEcEKmpUBZQpD1tL39dcVKNrt8yb/view?usp=sharing)
+[demo-video](https://vimeo.com/731005571)
 
 ## Reference
-Here are the list of reference for this assignment, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/), [Xbox Game Bar](https://apps.microsoft.com/store/detail/xbox-game-bar/9NZKPSTSNW4P?hl=en-au&gl=AU), to record the demo video and instructors ***Sam*** guided syntax code.
+Here are the list of reference for this assignment: [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/), [Xbox Game Bar](https://apps.microsoft.com/store/detail/xbox-game-bar/9NZKPSTSNW4P?hl=en-au&gl=AU)an app to record the demo video and instructors ***Sam*** guided syntax code.
 
 ## Github Link
 You might be a shooting star &#9733; Don't forget to click the ![star-button](utils/star-btn.png) button on any of my repositories [github/maytiara](https://github.com/maytiara)

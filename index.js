@@ -3,6 +3,8 @@
 
 const inquirer = require ('inquirer');
 const generateMarkdown = require('./utils/md-generator');
+const fs = require ('fs/promises'); // to create file inside the output folder
+const path = require ('path'); // directory path file value
 
 
 // Create a demo file or mock-up README.md file for your template

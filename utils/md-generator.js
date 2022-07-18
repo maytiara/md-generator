@@ -31,12 +31,12 @@ ${licensedBadge(license)}
 ${description}
 
 ## Table of Contents
-1. [Installation](#installation-details)
-2. [Usage](#screenshots-demo-video)
-3. [Reference](#reference-and-credits)
-4. [Github Link](#github-username)
-5. [Feedback or Contribute](#ask-question-or-how-to-contribute)
-6. [License](#license-type)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Reference](#reference)
+4. [Github Link](#github-link)
+5. [Feedback or Contribute](#feedback-or-contribute)
+6. [License](#license)
 
 ## Installation
 ---------------------

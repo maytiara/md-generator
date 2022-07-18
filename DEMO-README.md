@@ -14,26 +14,32 @@ This generator will saves time to create a read-me markdown file, it includes de
 5. [Feedback or Contribute](#ask-question-or-how-to-contribute)
 6. [License](#license-type)
 
-
 ## Installation
 ---------------------
-All rights reserved. Under the {license} license.
+* Clone the ***starter code***, from this [repository](https://github.com/coding-boot-camp/potential-enigma)
+* Create new folder and copy the files inside the develop folder
+* Install an additional npm package, ***--npm i inquirer@8.2.4***
+* Open your git terminal and create a new repository for this assignment then ***init > add > commit > remote add origin > push***
+* Create new demo README.md file for mock-up, output folder and add any necessary assets in your utils folder
+* Using ***index.js*** create pseudo code and start adding the inquirer prompt and function to create the generated demo-md markdown file.
+* ***md-generator.js*** create function for the object placeholder and this function will export object values in every questions.
 
 ## Usage
 ---------------------
-All rights reserved. Under the {license} license.
+Under ***utils/...*** , for the sreenshots and demo video.
 
 ## Reference
 ---------------------
-All rights reserved. Under the {license} license.
+Here are the list of reference for this assignment, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/) and [Screencastify](https://www.screencastify.com/), to record the demo video.
 
 ## Github Link
 ---------------------
-All rights reserved. Under the {license} license.
+You might be a shooting star &#9733; Don't forget to click the ![star-button](utils/star-btn.png) button on any of my repositories [github/maytiara](https://github.com/maytiara)
 
 ## Feedback or Contribute
 ---------------------
-All rights reserved. Under the {license} license.
+***If you have any feedback or suggestion feel free to send an email,*** {email-add}
+***Or else, if you would like to make a contribution, feel free to*** ![buy-me-a-coffee](utils/buy-me-a-coffee_opt.png) 
 
 ## License
 ---------------------

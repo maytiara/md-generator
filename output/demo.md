@@ -7,7 +7,7 @@
 
 ## Description
 ---------------------
-To create a generated markdown file
+To create a markdown file generator for my future projects
 
 ## Table of Contents
 1. [Installation](#installation-details)
@@ -19,13 +19,13 @@ To create a generated markdown file
 
 ## Installation
 ---------------------
-Step 1: install the required npm packages
-Step 2: install the required npm packages
-Step 3: install the required npm packages
+Step 1: Install the required npm packages
+Step 2: Install the required npm packages
+Step 3: Install the required npm packages
 
 ## Usage
 ---------------------
-Here's the link https://github.com/karen
+Here's the link http://github.com/karen
 
 ## Reference
 ---------------------
@@ -37,10 +37,10 @@ You might be a shooting star &#9733; Don't forget to click the [stars](utils/sta
 
 ## Feedback or Contribute
 ---------------------
-***If you have any feedback or suggestion feel free to send an email,*** karen@gmail.com
+***If you have any feedback or suggestion feel free to send an email,*** karen@demo.com
 ***Or else, if you would like to make a contribution, feel free to*** [buy-me-a-coffee](utils/buy-me-a-coffee_opt.png) 
 
-## Licensefs.writeFile
+## License
 ---------------------
 All rights reserved. Under the CC BY 4.0 license.
 

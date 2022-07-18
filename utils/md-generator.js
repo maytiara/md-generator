@@ -11,6 +11,7 @@ function licensedBadge (license) {
 function generateMarkdown ({ 
     title,
     license,
+    description,
     installation,
     usage,
     reference,
@@ -27,8 +28,7 @@ ${licensedBadge(license)}
 
 ## Description
 ---------------------
-As part of module 9 assignment, being a developer we have to build a **README.md** generator using node.js.
-This generator will saves time to create a read-me markdown file, it includes default questions, choices and icon badges for certain license.
+${description}
 
 ## Table of Contents
 1. [Installation](#installation-details)
@@ -40,21 +40,17 @@ This generator will saves time to create a read-me markdown file, it includes de
 
 ## Installation
 ---------------------
-* Clone the ***starter code***, from this [repository](https://github.com/coding-boot-camp/potential-enigma)
-* Create new folder and copy the files inside the develop folder
-* Install an additional npm package, ***--npm i inquirer@8.2.4***
-* Open your git terminal and create a new repository for this assignment then ***init > add > commit > remote add origin > push***
-* Create new demo README.md file for mock-up, output folder and add any necessary assets in your utils folder
-* Using ***index.js*** create pseudo code and start adding the inquirer prompt and function to create the generated demo-md markdown file.
-* ***md-generator.js*** create function for the object placeholder and this function will export object values in every questions.
+Step 1: ${installation}
+Step 2: ${installation}
+Step 3: ${installation}
 
 ## Usage
 ---------------------
-Under ***utils/...*** , for the sreenshots and demo video.
+Here's the link ${usage}
 
 ## Reference
 ---------------------
-Here are the list of reference for this project, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/) and [Screencastify](https://www.screencastify.com/), to record the demo video.
+Here are the list of reference for this project, [Reference 1](${reference}),
 
 ## Github Link
 ---------------------
@@ -62,12 +58,12 @@ You might be a shooting star &#9733; Don't forget to click the ![star-button](ut
 
 ## Feedback or Contribute
 ---------------------
-***If you have any feedback or suggestion feel free to send an email,*** {email-add}
+***If you have any feedback or suggestion feel free to send an email,*** ${email}
 ***Or else, if you would like to make a contribution, feel free to*** ![buy-me-a-coffee](utils/buy-me-a-coffee_opt.png) 
 
 ## License
 ---------------------
-All rights reserved. Under the {license} license.
+All rights reserved. Under the ${license} license.
 
 
 ` 

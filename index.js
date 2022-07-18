@@ -3,7 +3,7 @@
 
 const inquirer = require ('inquirer');
 const generateMarkdown = require('./utils/md-generator');
-const fs = require ('fs/promises'); // to create file inside the output folder
+const fileSetup = require ('fileSetup/promises'); // to create file inside the output folder
 const path = require ('path'); // directory path file value
 
 
@@ -60,11 +60,19 @@ inquirer.prompt([
 ]).then ((ans) => {
     console.log(ans); // asked in the node environment
 
-    const generated = generateMarkdown (ans); // return list of data inserted in function generateMarkdown
+    const generated = generateMarkdown (ans); // return list of data inserted in function generateMarkdown // --> Second Argument for the fileSetup.writeFile ()
 
-    console.log(generated);
+    // After asked questions, to generate a README.md file to output folder
+    const outputDir = path.join (__dirname, 'output', 'demo.md'); // --> First Argument for the fileSetup.writeFile ()
+
+    // method function to create the output generated file
+    const writeFile = fileSetup.writeFile;
+    writeFile (outputDir, generated, 'utf-8')
+        .then(() => {
+            console.log('generated')
+        });
 })
 
 
 
-// After asked questions, to generate a README.md file to output folder
+

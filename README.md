@@ -23,8 +23,8 @@ This generator will saves time to create a read-me markdown file, it includes de
 * ***md-generator.js*** create function for the object placeholder and this function will export object values in every questions.
 
 ## Usage
-Under ***utils/demo-video-assignment.mp4*** , for the sreenshots and demo video.
-![demo-video](utils/demo-video-assignment.mp4)
+***To view the demo video*** , please click the link
+[demo-video](https://drive.google.com/file/d/18iKZPEcEKmpUBZQpD1tL39dcVKNrt8yb/view?usp=sharing)
 
 ## Reference
 Here are the list of reference for this assignment, [Starter Code](https://github.com/coding-boot-camp/potential-enigma), [Buy me a coffee icon](https://www.buymeacoffee.com/downloads), [License Badge](https://shields.io/), [Xbox Game Bar](https://apps.microsoft.com/store/detail/xbox-game-bar/9NZKPSTSNW4P?hl=en-au&gl=AU), to record the demo video and instructors ***Sam*** guided syntax code.
